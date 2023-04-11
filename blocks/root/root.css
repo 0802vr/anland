@@ -1,0 +1,72 @@
+.root {
+    background-color:#FFFFFF;
+    font-family: 'Rising_sun', Arial, sans-serif;
+    box-sizing: border-box;       
+    margin: 0 auto;
+    color: #3C3C3C;
+    max-width: 1920px;
+    position:relative;
+    }
+
+    :root {
+        --color1: #5C62F8;
+        --color2: #A5FF5F;
+        --color3: #F9F8FE;
+        --color4:#8B8B8B;
+        --color5:#FFFFFF;
+        --color6:#3C3C3C;
+        --color7:#4A4A4A;
+        --color8:#4B4B4B;
+        --color9:#4D4D4D;
+        --color10:#F5F3FC;
+        
+} 
+h1 {
+    font-size: 95px;
+    line-height: 87%;
+    letter-spacing: -0.005em;
+}
+h2 {
+    font-size: 38px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    margin: 0;
+    font-weight: 400;
+}
+h3 {
+    font-size: 27px;
+    line-height: 34px;
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+h4 {
+    font-size: 24px;
+    line-height: 31px;
+}
+h5 {
+    font-size: 22px;
+    line-height: 28px;
+}
+h6{
+    font-size: 20px;
+    line-height: 140%;
+    margin: 0;
+    font-weight: 600;
+    color: var(--color1);
+}
+p,a{
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+    font-weight: 400;
+}
+button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
+   

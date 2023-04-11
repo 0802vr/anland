@@ -1,0 +1,77 @@
+.slider {
+        overflow-x: hidden; 
+         
+        
+}
+/*  .scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  
+    .card {
+      display: inline-block;
+    }
+  }  */
+.slider_box {
+    width: 100%;
+    display: flex;    
+    gap: 20px;    
+    /* flex-wrap: nowrap;
+    overflow-x: auto;  */
+
+}
+/* .slider_box::-webkit-scrollbar {
+    -webkit-overflow-scrolling: touch;
+    display: none; 
+      
+    } */
+.slider_card {
+    min-width: 650px;
+    height: 403px;
+    background-color: var(--color2);
+    border-radius: 18px;
+    padding: 30px;
+    position: relative;
+    /* flex: 0 0 auto; */
+     
+}
+.slider_title {
+    font-weight: 600;
+    color: var(--color8);
+}
+.slider_box {
+    display: flex;
+    margin: 10px 0 20px;
+    gap: 10px;
+}
+.slider_button {
+    background: var(--color5);
+    border-radius: 20px;
+    height: 34px;
+    padding: 7px 24px;
+    color: var(--color1);
+}
+.slider_text {
+    width: 394px;
+}
+.slider_img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.slider_card:nth-child(3n) {
+    background-color: var(--color3);
+    
+}
+.slider_card:nth-child(3n) .slider_title {
+    color: var(--color1);
+}
+.slider_card:nth-child(3n - 1) {
+    background-color: var(--color1);
+}
+.slider_card:nth-child(3n - 1) .slider_title  {
+    color: var(--color5);
+}
+.slider_card:nth-child(3n - 1)  .slider_text {
+    color: var(--color5);
+}

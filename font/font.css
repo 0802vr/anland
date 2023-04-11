@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Rising_sun';
+  font-style: normal;
+  font-weight: 400;
+  src: local('RisingSun-Regular.ttf'),
+  url(RisingSun-Regular.ttf); 
+}
+@font-face {
+  font-family: 'Rising_sun';
+  font-style: normal;
+  font-weight: 500;
+  src: local('RisingSun-Medium.ttf'),
+  url(RisingSun-Medium.ttf); 
+}
+@font-face {
+  font-family: 'Rising_sun';
+  font-style: normal;
+  font-weight: 600;
+  src: local('RisingSun-SemiBold.ttf'),
+  url(RisingSun-SemiBold.ttf); 
+}
+ 
+ 

@@ -1,0 +1,21 @@
+
+    @import url(./vendor/normalize.css);
+    @import url(./font/font.css);
+
+    @import url(./blocks/root/root.css);
+
+    @import url(./blocks/header/header.css);
+    
+    @import url(./blocks/about_us/about_us.css);
+    @import url(./blocks/slider/slider.css);
+    @import url(./blocks/video_text/video_text.css);
+    @import url(./blocks/video_slider/video_slider.css);
+    @import url(./blocks/info/info.css);
+    @import url(./blocks/slider_anim/slider_anim.css);
+    @import url(./blocks/sourse/sourse.css);
+    @import url(./blocks/request/request.css);
+    @import url(./blocks/banner_mini/banner_mini.css);
+    @import url(./blocks/teachers/teachers.css);
+    @import url(./blocks/feedback/feedback.css);
+
+    @import url(./blocks/footer/footer.css);

@@ -1,0 +1,17 @@
+.about_us {
+    margin: 100px 2.85% 50px;
+    display: flex;
+    max-width: 1400px;
+     
+     
+}
+.box_section {
+    min-width: 335px;
+}
+.title_section {
+    width: 128px;
+     
+}
+.text_section {
+    
+}
