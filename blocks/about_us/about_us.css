@@ -1,7 +1,10 @@
 .about_us {
-    margin: 100px 2.85% 50px;
+    margin: 200px auto 100px;
     display: flex;
-    max-width: 1400px;
+    width: 94.3%;
+    padding-left: 2.85%;
+    padding-right: 2.85%;
+    max-width: 1400px; 
      
      
 }

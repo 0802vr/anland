@@ -1,6 +1,8 @@
 .slider {
         overflow-x: hidden; 
-         
+        margin: 0 auto;
+        display: flex;        
+        
         
 }
 /*  .scrolling-wrapper {
