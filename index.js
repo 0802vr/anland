@@ -34,9 +34,6 @@ panels.forEach((item) => item.addEventListener('click', toggleImage));
 
 //слайдер с видео
 const videoCards = document.querySelectorAll('.video_slider_box');
-
-
-
 let arrayNew = Array.from(videoCards); 
 
 function toggleSlider(e) {
@@ -54,31 +51,43 @@ function toggleSlider(e) {
   let c = b.indexOf(true);
 
   if (a) {
+    if (this === videoCards[c]) {
+      if(e.target.classList.contains('player__button_mute')){
+        updateVolume()
+        return
+      }
+      video.paused ? video.play() : video.pause()
+      console.log(video, this, e.target)
+      return
+    }
     videoCards[c].classList.remove("video_slider_active");
     videoCards[c].querySelector(".video_slider_card").pause();
-    if (this === videoCards[c]) {
-      video.paused ? video.play() : video.pause()
-      console.log(video)
+    
        
     }
-  }
+  
    if( !this.classList.contains('video_slider_active')){
     console.log('on', c)
     this.classList.add("video_slider_active");
-    this.querySelector(".video_slider_card").play();
+    video.play(); 
      
-     
+   }   
     
     function updateButton() {
-      console.log(6)
+      
       const icon = video.paused ? '►' : '❚❚';      
       videoPlay.textContent = icon;
+    }
+    function updateVolume() {
+      (video.volume === 1) ? video.volume = 0 : video.volume = 1
+      const icon = (video.volume === 1) ? 'off' : 'on';      
+      videoVolume.textContent = icon;
     }
     /* video.addEventListener('click', togglePlay); */
     video.addEventListener('play', updateButton);
     video.addEventListener('pause', updateButton);
-
-  } 
+     
+   
   
 }
  
