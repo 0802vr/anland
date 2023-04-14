@@ -1,52 +1,48 @@
-.feedback {
-    margin: 0 auto 3.75%;
+.teachers_photo {
+    margin: 0 auto 14.5%;
     display: flex;    
     padding-left: 2.85%;
     padding-right: 2.85%;
     max-width: 100%; 
-}
-.feedback_slider {
-    margin: 0 auto 14.5%;
-    display: flex;    
-     padding: 0;
-    max-width: 100%;
-    overflow: hidden;
-}
-.feedback_slider_box {
-    list-style-type: none;
-    display: flex;
     gap: 1%;
+    
 }
-.feedback_slider_card {
-    background: var(--color10);
+.teachers_photo_box {
+    flex: 1;
+}
+.teachers_photo_cont {
+    background-color: var(--color10);
     border-radius: calc(25px + (100vw / 1400));
     -webkit-border-radius: calc(25px + (100vw / 1400));
     -moz-border-radius: calc(25px + (100vw / 1400));
     -ms-border-radius: calc(25px + (100vw / 1400));
     -o-border-radius: calc(25px + (100vw / 1400));
-    padding: 2.2% 1.5% 1.5%;
-    min-width:  29%;
+    position: relative;
+    height: 27.1vw;
 }
-.feedback_slider_title {
-    color: var(--color1);
+.teachers_photo_title {
+    margin-top: 5%;
 }
-.feedback_slider_btn {
-    margin: 3% 0 2%;
-    padding: 2% 3%;
-    background-color: var(--color5);
+.teachers_photo_text {
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.teachers_photo_btn {
+    background-color: var(--color10);
     border-radius: calc(25px + (100vw / 1400));
     -webkit-border-radius: calc(25px + (100vw / 1400));
     -moz-border-radius: calc(25px + (100vw / 1400));
     -ms-border-radius: calc(25px + (100vw / 1400));
     -o-border-radius: calc(25px + (100vw / 1400));
+    padding: 1.7% 2.7%;
 }
-.feedback_slider_text {
-    margin-bottom: 10%;
+.teachers_photo_img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
-.feedback_slider_btns {
-    display: flex;
-    gap: 1%;
-}
-.feedback_slider_btns .feedback_slider_btn span{
+.teachers_photo_btn span {
     color: var(--color1);
 }

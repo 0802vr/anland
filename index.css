@@ -5,7 +5,7 @@
     @import url(./blocks/root/root.css);
 
     @import url(./blocks/header/header.css);
-    
+    @import url(./blocks/main_banner/main_banner.css);
     @import url(./blocks/about_us/about_us.css);
     @import url(./blocks/slider/slider.css);
     @import url(./blocks/video_text/video_text.css);
@@ -16,6 +16,7 @@
     @import url(./blocks/request/request.css);
     @import url(./blocks/banner_mini/banner_mini.css);
     @import url(./blocks/teachers/teachers.css);
+    @import url(./blocks/teachers_photo/teachers_photo.css);
     @import url(./blocks/feedback/feedback.css);
 
     @import url(./blocks/footer/footer.css);

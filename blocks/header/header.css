@@ -1,3 +1,41 @@
- .header{
-    max-width: 1400px;
- }
+.header {
+   margin: 2% auto 2%;
+   display: flex;       
+   align-items: center;
+   padding-left: 2.85%;
+   padding-right: 2.85%;
+   max-width: 100%; 
+}
+.header_box_left {
+   min-width: 25%;
+}
+.header_box_center {
+   display: flex;
+   justify-content: space-between;
+   gap: 10%;   
+   width: 100%; 
+   box-sizing: content-box;
+}
+.header_nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+    
+}
+.header_link {
+   width: fit-content;
+   margin-right: 2%;
+   text-decoration: none;
+   color: var(--color6);
+}
+.header_btn {
+    background-color: var(--color1);
+    color: var(--color5);
+    padding: 1% 4%;
+    border-radius: calc(26px + (100vw / 1400));
+    -webkit-border-radius: calc(26px + (100vw / 1400));
+    -moz-border-radius: calc(26px + (100vw / 1400));
+    -ms-border-radius: calc(26px + (100vw / 1400));
+    -o-border-radius: calc(26px + (100vw / 1400));
+}
