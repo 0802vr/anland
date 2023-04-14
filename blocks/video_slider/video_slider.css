@@ -2,11 +2,10 @@
     margin: 0 auto 0;    
     width: 94.3%;
     padding-left: 2.85%;
-    padding-right: 2.85%;
-    max-width: 1400px;  
+    padding-right: 2.85%;     
     display: flex;
     align-items: flex-start;
-    gap: 20px;    
+    gap: 1%;    
 }
 /* .slider_anim_text {
     animation: 2s linear rise;
@@ -27,30 +26,32 @@
     flex: 1;
     position: relative;
     box-sizing: border-box;
-    /* max-height: 27.5vw;
-
-    height: 405px; */
-    /*  height: 405px; 
-     width: 201px;  */
-    background-color: var(--color4);
-    border-radius: 15px;
+    /*max-height: 27.5vw;
+    height: 405px;
+    *//*height: 405px;
+    width: 201px;
+    */background-color: var(--color4);
+    border-radius: calc(15px + (100vw / 1400));
     overflow: hidden;
     cursor: pointer;
-    transition: all 1s linear;
-    -webkit-transition: all 1s linear;
-    -moz-transition: all 1s linear;
-    -ms-transition: all 1s linear;
-    -o-transition: all 1s linear;
-     
+    transition: all .6s linear;
+    -webkit-transition: all .6s linear;
+    -moz-transition: all .6s linear;
+    -ms-transition: all .6s linear;
+    -o-transition: all .6s linear;
+    -webkit-border-radius: calc(15px + (100vw / 1400));
+    -moz-border-radius: calc(15px + (100vw / 1400));
+    -ms-border-radius: calc(15px + (100vw / 1400));
+    -o-border-radius: calc(15px + (100vw / 1400));
 }
 .video_slider_active {     
     flex: 1.5;
-    /* height: 638px; */
+    height: 100%;
 }
 .video_slider_card {
-     max-width: 363px;
+     max-width: 100%;
      width: 100%;     
-     max-height: 638px;
+     /* max-height: 638px; */
      transition: all 1s linear;
 }
 .video_slider_img {
@@ -59,8 +60,8 @@
     transition: all 1s linear;
 }
 .video_slider_box > .video_slider_img {
-    animation: 2s linear rise;
-    -webkit-animation: 2s linear rise;
+    animation: 1s linear rise;
+    -webkit-animation: 1s linear rise;
     display: block;
     opacity: 1;
 }
@@ -69,8 +70,8 @@
     opacity: 0;
 }
 .video_slider_box > .video_slider_card {
-    animation: 2s linear rise;
-    -webkit-animation: 2s linear rise;
+    animation: 1s linear rise;
+    -webkit-animation: 1s linear rise;
     display: none;
     opacity: 0;
 }
@@ -81,8 +82,8 @@
 
 /* плашка для видео  */
 .video_slider_box > .controls {
-    animation: 2s linear rise;
-    -webkit-animation: 2s linear rise;
+    animation: 1s linear rise;
+    -webkit-animation: 1s linear rise;
     display: none;
     opacity: 0;
 }
@@ -100,27 +101,27 @@
     transition: all 1s linear;
 }
 .player__button_play {
-    top: 10px;
-    left: 10px;
-    width: 14px;
-    height: 14px;
+    top: 1%;
+    left: 4%;
+    width: 1%;
+    height: 4%;
     background: none;
 }
 .toggle {
 }
 .player__button_mute {
-    top: 10px;
-    right: 10px;
-    width: 31px;
-    height: 25px;     
+    top: 1%;
+    right: 6%;
+    width: 7%;
+    height: 4%;     
     background: none;
 }
 .controls_panel {
-    padding: 0 10px 17px;
+    padding: 0 1.5% 2.5%;
 }
 .controls_panel_title {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 90%;
     line-height: 115%; 
     letter-spacing: -0.02em;
     color: var(--color5);
@@ -137,8 +138,8 @@
     align-items: center;
 }
 .controls_panel_img {
-    width: 28px;
-    height: 28px;
+    width: calc(28px + (100vw / 1400));
+    height: calc(28px + (100vw / 1400));
     background-color: var(--color1);
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -148,19 +149,23 @@
 }
 .controls_panel_name {
     font-weight: 600;
-    font-size: 11px;
+    font-size: 70%;
     line-height: 115%; 
     letter-spacing: -0.02em;
     color: var(--color5);
 }
 .controls_panel_button {
-    background-color: var(--color5);     
-    border-radius: 51px;
-    padding: 7px 18px;
+    background-color: var(--color5);
+    border-radius: calc(51px + (100vw / 1400));
+    padding: 1.5% 2.5%;
     font-weight: 600;
-    font-size: 11px;
+    font-size: 80%;
     line-height: 115%;
     letter-spacing: -0.02em;
+    -webkit-border-radius: calc(51px + (100vw / 1400));
+    -moz-border-radius: calc(51px + (100vw / 1400));
+    -ms-border-radius: calc(51px + (100vw / 1400));
+    -o-border-radius: calc(51px + (100vw / 1400));
 }
 /* .video_slider_title {
     font-weight: 600;

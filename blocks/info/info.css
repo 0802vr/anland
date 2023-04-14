@@ -1,8 +1,7 @@
 .info {
-    margin: 200px auto 100px;
-    display: flex;
-    width: 94.3%;
+    margin: 7% auto 4%;
+    display: flex;    
     padding-left: 2.85%;
     padding-right: 2.85%;
-    max-width: 1400px; 
+    max-width: 100%; 
 }
