@@ -12,10 +12,15 @@
     max-width: 100%;
     overflow: hidden;
 }
-.feedback_slider_box {
+/* .feedback_slider_cont {
     list-style-type: none;
     display: flex;
     gap: 1%;
+} */
+.feedback_slider_box {
+    list-style-type: none;
+    display: flex;
+    gap: 1%; 
 }
 .feedback_slider_card {
     background: var(--color10);
@@ -25,7 +30,7 @@
     -ms-border-radius: calc(25px + (100vw / 1400));
     -o-border-radius: calc(25px + (100vw / 1400));
     padding: 2.2% 1.5% 1.5%;
-    min-width:  29%;
+    width:  30%;
 }
 .feedback_slider_title {
     color: var(--color1);

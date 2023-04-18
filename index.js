@@ -30,8 +30,6 @@ function toggleImage(){
 }
 panels.forEach((item) => item.addEventListener('click', toggleImage));
 /* panels.forEach((item) => item.addEventListener('transitionend', toggleText)); */
-
-
 //слайдер с видео
 const videoCards = document.querySelectorAll('.video_slider_box');
 let arrayNew = Array.from(videoCards); 
@@ -86,10 +84,23 @@ function toggleSlider(e) {
     /* video.addEventListener('click', togglePlay); */
     video.addEventListener('play', updateButton);
     video.addEventListener('pause', updateButton);
-     
-   
-  
 }
  
 videoCards.forEach((item) => item.addEventListener('click', toggleSlider))
  
+
+
+//course
+const course = document.querySelector('.request_section')
+const courseList = course.querySelectorAll('.request_title_section')
+let nameSourse = "plus";
+function toggleSourse(e) {
+  if(nameSourse === e.target.id){
+    return
+  }
+  
+  document.getElementById(nameSourse).classList.remove("request_title_section_active") 
+  nameSourse = e.target.id
+  e.target.classList.add("request_title_section_active")
+}
+courseList.forEach((item) => item.addEventListener('click', toggleSourse))
